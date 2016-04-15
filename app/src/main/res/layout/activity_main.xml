@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_rulerValue"
+        android:rotation="-90"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:textColor="#090808"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="90dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id_rulerImageView" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id_markerImageView" />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
